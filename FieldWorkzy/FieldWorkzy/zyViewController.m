@@ -4,7 +4,7 @@
 //
 //  Created by Zhaoyao on 14-11-13.
 //  Copyright (c) 2014年 ZH. All rights reserved.
-//  测试 test   test  test 
+//  测试 test   test  test
 
 #import "zyViewController.h"
 
@@ -30,9 +30,17 @@
     
 }
 
+/**
+ *  点击空白处隐藏键盘隐藏键盘
+ *
+ *  @param touches
+ *  @param event
+ */
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 
-
-
+{
+    [self.view endEditing:YES];
+}
   
 
 
@@ -50,8 +58,8 @@
 
 
 - (IBAction)Landed:(id)sender {
-    
-    
+    //判断账号
+    [self judgeAccount];
     
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://outworker.maichong.it/api/user/login"]];
     
@@ -100,6 +108,22 @@
     
 }
 
+
+- (void)judgeAccount
+{
+    if (self.Username.text.length == 0) {
+        // 弹框提醒
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"登录失败" message:@"请输入账号" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    if (self.UserPassword.text.length == 0) {
+        //弹框提醒
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"登录失败" message:@"请输入密码" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    
+}
+
 - (IBAction)RememberPassword:(UIButton *)sender
 {
     
@@ -119,13 +143,13 @@
     
 }
 
-
--(BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [textField resignFirstResponder];
-    
-    return  YES;
-}
+//
+//-(BOOL)textFieldShouldReturn:(UITextField *)textField
+//{
+//    [textField resignFirstResponder];
+//    
+//    return  YES;
+//}
 
 
 /*- (void)textFieldDidBeginEditing:(UITextField *)textField

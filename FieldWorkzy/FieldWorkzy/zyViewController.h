@@ -38,5 +38,7 @@
 - (IBAction)RememberPassword:(UIButton *)sender;
 
 
+- (void)judgeAccount;
+
 
 @end

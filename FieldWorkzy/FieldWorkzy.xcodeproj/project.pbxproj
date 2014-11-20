@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49309BA91A1DDF5800627AA9 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 49309BA51A1DDF5800627AA9 /* MBProgressHUD+MJ.m */; };
+		49309BAA1A1DDF5800627AA9 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49309BA61A1DDF5800627AA9 /* MBProgressHUD.bundle */; };
+		49309BAB1A1DDF5800627AA9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 49309BA81A1DDF5800627AA9 /* MBProgressHUD.m */; };
 		FCAE629C1A19C2D9007DF2EC /* zyleaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE629B1A19C2D9007DF2EC /* zyleaveViewController.m */; };
 		FCB095291A15B0C900F88C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB095281A15B0C900F88C15 /* Foundation.framework */; };
 		FCB0952B1A15B0C900F88C15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0952A1A15B0C900F88C15 /* CoreGraphics.framework */; };
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49309BA41A1DDF5800627AA9 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		49309BA51A1DDF5800627AA9 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		49309BA61A1DDF5800627AA9 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		49309BA71A1DDF5800627AA9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		49309BA81A1DDF5800627AA9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		FCAE629A1A19C2D9007DF2EC /* zyleaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zyleaveViewController.h; sourceTree = "<group>"; };
 		FCAE629B1A19C2D9007DF2EC /* zyleaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zyleaveViewController.m; sourceTree = "<group>"; };
 		FCB095251A15B0C900F88C15 /* FieldWorkzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldWorkzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +109,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49309BA31A1DDF5800627AA9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				49309BA41A1DDF5800627AA9 /* MBProgressHUD+MJ.h */,
+				49309BA51A1DDF5800627AA9 /* MBProgressHUD+MJ.m */,
+				49309BA61A1DDF5800627AA9 /* MBProgressHUD.bundle */,
+				49309BA71A1DDF5800627AA9 /* MBProgressHUD.h */,
+				49309BA81A1DDF5800627AA9 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		FCB0951C1A15B0C900F88C15 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +170,7 @@
 				FCB095651A15B2E000F88C15 /* zyLandedViewController.m */,
 				FCBBD33B1A1C8FE000CAC9CF /* off.png */,
 				FCBBD33D1A1C902D00CAC9CF /* on.png */,
+				49309BA31A1DDF5800627AA9 /* MBProgressHUD */,
 			);
 			path = FieldWorkzy;
 			sourceTree = "<group>";
@@ -267,6 +288,7 @@
 				FCB095411A15B0C900F88C15 /* Images.xcassets in Resources */,
 				FCB095331A15B0C900F88C15 /* InfoPlist.strings in Resources */,
 				FCB0953C1A15B0C900F88C15 /* Main.storyboard in Resources */,
+				49309BAA1A1DDF5800627AA9 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +311,10 @@
 				FCB095661A15B2E000F88C15 /* zyLandedViewController.m in Sources */,
 				FCB0953F1A15B0C900F88C15 /* zyViewController.m in Sources */,
 				FCB095631A15B21B00F88C15 /* zyRegisViewController.m in Sources */,
+				49309BA91A1DDF5800627AA9 /* MBProgressHUD+MJ.m in Sources */,
 				FCB095391A15B0C900F88C15 /* zyAppDelegate.m in Sources */,
 				FCAE629C1A19C2D9007DF2EC /* zyleaveViewController.m in Sources */,
+				49309BAB1A1DDF5800627AA9 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
