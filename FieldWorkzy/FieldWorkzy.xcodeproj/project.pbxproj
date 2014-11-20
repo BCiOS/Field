@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCAE629C1A19C2D9007DF2EC /* zyleaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE629B1A19C2D9007DF2EC /* zyleaveViewController.m */; };
+		FCB095291A15B0C900F88C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB095281A15B0C900F88C15 /* Foundation.framework */; };
+		FCB0952B1A15B0C900F88C15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0952A1A15B0C900F88C15 /* CoreGraphics.framework */; };
+		FCB0952D1A15B0C900F88C15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0952C1A15B0C900F88C15 /* UIKit.framework */; };
+		FCB095331A15B0C900F88C15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCB095311A15B0C900F88C15 /* InfoPlist.strings */; };
+		FCB095351A15B0C900F88C15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB095341A15B0C900F88C15 /* main.m */; };
+		FCB095391A15B0C900F88C15 /* zyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB095381A15B0C900F88C15 /* zyAppDelegate.m */; };
+		FCB0953C1A15B0C900F88C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB0953A1A15B0C900F88C15 /* Main.storyboard */; };
+		FCB0953F1A15B0C900F88C15 /* zyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0953E1A15B0C900F88C15 /* zyViewController.m */; };
+		FCB095411A15B0C900F88C15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB095401A15B0C900F88C15 /* Images.xcassets */; };
+		FCB095481A15B0C900F88C15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB095471A15B0C900F88C15 /* XCTest.framework */; };
+		FCB095491A15B0C900F88C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB095281A15B0C900F88C15 /* Foundation.framework */; };
+		FCB0954A1A15B0C900F88C15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0952C1A15B0C900F88C15 /* UIKit.framework */; };
+		FCB095521A15B0C900F88C15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCB095501A15B0C900F88C15 /* InfoPlist.strings */; };
+		FCB095541A15B0C900F88C15 /* FieldWorkzyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB095531A15B0C900F88C15 /* FieldWorkzyTests.m */; };
+		FCB0955E1A15B0E800F88C15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0955D1A15B0E800F88C15 /* MapKit.framework */; };
+		FCB095601A15B0F700F88C15 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0955F1A15B0F700F88C15 /* CoreLocation.framework */; };
+		FCB095631A15B21B00F88C15 /* zyRegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB095621A15B21B00F88C15 /* zyRegisViewController.m */; };
+		FCB095661A15B2E000F88C15 /* zyLandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB095651A15B2E000F88C15 /* zyLandedViewController.m */; };
+		FCBBD33C1A1C8FE000CAC9CF /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBBD33B1A1C8FE000CAC9CF /* off.png */; };
+		FCBBD33E1A1C902D00CAC9CF /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBBD33D1A1C902D00CAC9CF /* on.png */; };
+		FCBEEAEE1A1DAB15007B515D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBEEAED1A1DAB15007B515D /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB0954B1A15B0C900F88C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB0951D1A15B0C900F88C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB095241A15B0C900F88C15;
+			remoteInfo = FieldWorkzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCAE629A1A19C2D9007DF2EC /* zyleaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zyleaveViewController.h; sourceTree = "<group>"; };
+		FCAE629B1A19C2D9007DF2EC /* zyleaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zyleaveViewController.m; sourceTree = "<group>"; };
+		FCB095251A15B0C900F88C15 /* FieldWorkzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldWorkzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB095281A15B0C900F88C15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCB0952A1A15B0C900F88C15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCB0952C1A15B0C900F88C15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCB095301A15B0C900F88C15 /* FieldWorkzy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FieldWorkzy-Info.plist"; sourceTree = "<group>"; };
+		FCB095321A15B0C900F88C15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCB095341A15B0C900F88C15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCB095361A15B0C900F88C15 /* FieldWorkzy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FieldWorkzy-Prefix.pch"; sourceTree = "<group>"; };
+		FCB095371A15B0C900F88C15 /* zyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zyAppDelegate.h; sourceTree = "<group>"; };
+		FCB095381A15B0C900F88C15 /* zyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zyAppDelegate.m; sourceTree = "<group>"; };
+		FCB0953B1A15B0C900F88C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB0953D1A15B0C900F88C15 /* zyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zyViewController.h; sourceTree = "<group>"; };
+		FCB0953E1A15B0C900F88C15 /* zyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zyViewController.m; sourceTree = "<group>"; };
+		FCB095401A15B0C900F88C15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCB095461A15B0C900F88C15 /* FieldWorkzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldWorkzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB095471A15B0C900F88C15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCB0954F1A15B0C900F88C15 /* FieldWorkzyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FieldWorkzyTests-Info.plist"; sourceTree = "<group>"; };
+		FCB095511A15B0C900F88C15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCB095531A15B0C900F88C15 /* FieldWorkzyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldWorkzyTests.m; sourceTree = "<group>"; };
+		FCB0955D1A15B0E800F88C15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FCB0955F1A15B0F700F88C15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCB095611A15B21B00F88C15 /* zyRegisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zyRegisViewController.h; sourceTree = "<group>"; };
+		FCB095621A15B21B00F88C15 /* zyRegisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zyRegisViewController.m; sourceTree = "<group>"; };
+		FCB095641A15B2E000F88C15 /* zyLandedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zyLandedViewController.h; sourceTree = "<group>"; };
+		FCB095651A15B2E000F88C15 /* zyLandedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zyLandedViewController.m; sourceTree = "<group>"; };
+		FCBBD33B1A1C8FE000CAC9CF /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		FCBBD33D1A1C902D00CAC9CF /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		FCBEEAED1A1DAB15007B515D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB095221A15B0C900F88C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBEEAEE1A1DAB15007B515D /* Security.framework in Frameworks */,
+				FCB095601A15B0F700F88C15 /* CoreLocation.framework in Frameworks */,
+				FCB0955E1A15B0E800F88C15 /* MapKit.framework in Frameworks */,
+				FCB0952B1A15B0C900F88C15 /* CoreGraphics.framework in Frameworks */,
+				FCB0952D1A15B0C900F88C15 /* UIKit.framework in Frameworks */,
+				FCB095291A15B0C900F88C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB095431A15B0C900F88C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB095481A15B0C900F88C15 /* XCTest.framework in Frameworks */,
+				FCB0954A1A15B0C900F88C15 /* UIKit.framework in Frameworks */,
+				FCB095491A15B0C900F88C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB0951C1A15B0C900F88C15 = {
+			isa = PBXGroup;
+			children = (
+				FCB0952E1A15B0C900F88C15 /* FieldWorkzy */,
+				FCB0954D1A15B0C900F88C15 /* FieldWorkzyTests */,
+				FCB095271A15B0C900F88C15 /* Frameworks */,
+				FCB095261A15B0C900F88C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB095261A15B0C900F88C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB095251A15B0C900F88C15 /* FieldWorkzy.app */,
+				FCB095461A15B0C900F88C15 /* FieldWorkzyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB095271A15B0C900F88C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBEEAED1A1DAB15007B515D /* Security.framework */,
+				FCB0955F1A15B0F700F88C15 /* CoreLocation.framework */,
+				FCB0955D1A15B0E800F88C15 /* MapKit.framework */,
+				FCB095281A15B0C900F88C15 /* Foundation.framework */,
+				FCB0952A1A15B0C900F88C15 /* CoreGraphics.framework */,
+				FCB0952C1A15B0C900F88C15 /* UIKit.framework */,
+				FCB095471A15B0C900F88C15 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB0952E1A15B0C900F88C15 /* FieldWorkzy */ = {
+			isa = PBXGroup;
+			children = (
+				FCB095371A15B0C900F88C15 /* zyAppDelegate.h */,
+				FCB095381A15B0C900F88C15 /* zyAppDelegate.m */,
+				FCB0953A1A15B0C900F88C15 /* Main.storyboard */,
+				FCB0953D1A15B0C900F88C15 /* zyViewController.h */,
+				FCB0953E1A15B0C900F88C15 /* zyViewController.m */,
+				FCB095401A15B0C900F88C15 /* Images.xcassets */,
+				FCB0952F1A15B0C900F88C15 /* Supporting Files */,
+				FCB095611A15B21B00F88C15 /* zyRegisViewController.h */,
+				FCB095621A15B21B00F88C15 /* zyRegisViewController.m */,
+				FCB095641A15B2E000F88C15 /* zyLandedViewController.h */,
+				FCB095651A15B2E000F88C15 /* zyLandedViewController.m */,
+				FCBBD33B1A1C8FE000CAC9CF /* off.png */,
+				FCBBD33D1A1C902D00CAC9CF /* on.png */,
+			);
+			path = FieldWorkzy;
+			sourceTree = "<group>";
+		};
+		FCB0952F1A15B0C900F88C15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB095301A15B0C900F88C15 /* FieldWorkzy-Info.plist */,
+				FCB095311A15B0C900F88C15 /* InfoPlist.strings */,
+				FCB095341A15B0C900F88C15 /* main.m */,
+				FCB095361A15B0C900F88C15 /* FieldWorkzy-Prefix.pch */,
+				FCAE629A1A19C2D9007DF2EC /* zyleaveViewController.h */,
+				FCAE629B1A19C2D9007DF2EC /* zyleaveViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCB0954D1A15B0C900F88C15 /* FieldWorkzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB095531A15B0C900F88C15 /* FieldWorkzyTests.m */,
+				FCB0954E1A15B0C900F88C15 /* Supporting Files */,
+			);
+			path = FieldWorkzyTests;
+			sourceTree = "<group>";
+		};
+		FCB0954E1A15B0C900F88C15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB0954F1A15B0C900F88C15 /* FieldWorkzyTests-Info.plist */,
+				FCB095501A15B0C900F88C15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB095241A15B0C900F88C15 /* FieldWorkzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB095571A15B0C900F88C15 /* Build configuration list for PBXNativeTarget "FieldWorkzy" */;
+			buildPhases = (
+				FCB095211A15B0C900F88C15 /* Sources */,
+				FCB095221A15B0C900F88C15 /* Frameworks */,
+				FCB095231A15B0C900F88C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldWorkzy;
+			productName = FieldWorkzy;
+			productReference = FCB095251A15B0C900F88C15 /* FieldWorkzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCB095451A15B0C900F88C15 /* FieldWorkzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB0955A1A15B0C900F88C15 /* Build configuration list for PBXNativeTarget "FieldWorkzyTests" */;
+			buildPhases = (
+				FCB095421A15B0C900F88C15 /* Sources */,
+				FCB095431A15B0C900F88C15 /* Frameworks */,
+				FCB095441A15B0C900F88C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB0954C1A15B0C900F88C15 /* PBXTargetDependency */,
+			);
+			name = FieldWorkzyTests;
+			productName = FieldWorkzyTests;
+			productReference = FCB095461A15B0C900F88C15 /* FieldWorkzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB0951D1A15B0C900F88C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = zy;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZH;
+				TargetAttributes = {
+					FCB095451A15B0C900F88C15 = {
+						TestTargetID = FCB095241A15B0C900F88C15;
+					};
+				};
+			};
+			buildConfigurationList = FCB095201A15B0C900F88C15 /* Build configuration list for PBXProject "FieldWorkzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB0951C1A15B0C900F88C15;
+			productRefGroup = FCB095261A15B0C900F88C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB095241A15B0C900F88C15 /* FieldWorkzy */,
+				FCB095451A15B0C900F88C15 /* FieldWorkzyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB095231A15B0C900F88C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBBD33E1A1C902D00CAC9CF /* on.png in Resources */,
+				FCBBD33C1A1C8FE000CAC9CF /* off.png in Resources */,
+				FCB095411A15B0C900F88C15 /* Images.xcassets in Resources */,
+				FCB095331A15B0C900F88C15 /* InfoPlist.strings in Resources */,
+				FCB0953C1A15B0C900F88C15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB095441A15B0C900F88C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB095521A15B0C900F88C15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB095211A15B0C900F88C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB095351A15B0C900F88C15 /* main.m in Sources */,
+				FCB095661A15B2E000F88C15 /* zyLandedViewController.m in Sources */,
+				FCB0953F1A15B0C900F88C15 /* zyViewController.m in Sources */,
+				FCB095631A15B21B00F88C15 /* zyRegisViewController.m in Sources */,
+				FCB095391A15B0C900F88C15 /* zyAppDelegate.m in Sources */,
+				FCAE629C1A19C2D9007DF2EC /* zyleaveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB095421A15B0C900F88C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB095541A15B0C900F88C15 /* FieldWorkzyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB0954C1A15B0C900F88C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB095241A15B0C900F88C15 /* FieldWorkzy */;
+			targetProxy = FCB0954B1A15B0C900F88C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCB095311A15B0C900F88C15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB095321A15B0C900F88C15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCB0953A1A15B0C900F88C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB0953B1A15B0C900F88C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB095501A15B0C900F88C15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB095511A15B0C900F88C15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB095551A15B0C900F88C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCB095561A15B0C900F88C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB095581A15B0C900F88C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldWorkzy/FieldWorkzy-Prefix.pch";
+				INFOPLIST_FILE = "FieldWorkzy/FieldWorkzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCB095591A15B0C900F88C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldWorkzy/FieldWorkzy-Prefix.pch";
+				INFOPLIST_FILE = "FieldWorkzy/FieldWorkzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCB0955B1A15B0C900F88C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FieldWorkzy.app/FieldWorkzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldWorkzy/FieldWorkzy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FieldWorkzyTests/FieldWorkzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCB0955C1A15B0C900F88C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FieldWorkzy.app/FieldWorkzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldWorkzy/FieldWorkzy-Prefix.pch";
+				INFOPLIST_FILE = "FieldWorkzyTests/FieldWorkzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB095201A15B0C900F88C15 /* Build configuration list for PBXProject "FieldWorkzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB095551A15B0C900F88C15 /* Debug */,
+				FCB095561A15B0C900F88C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB095571A15B0C900F88C15 /* Build configuration list for PBXNativeTarget "FieldWorkzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB095581A15B0C900F88C15 /* Debug */,
+				FCB095591A15B0C900F88C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB0955A1A15B0C900F88C15 /* Build configuration list for PBXNativeTarget "FieldWorkzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB0955B1A15B0C900F88C15 /* Debug */,
+				FCB0955C1A15B0C900F88C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB0951D1A15B0C900F88C15 /* Project object */;
+}
